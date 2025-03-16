@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yatin Kashyap - Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="counter">0</h1>
+    <div class="overlay">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="container">
+      <img src="/assets/bg.jpg" alt="background" id="bg" />
+      <img src="/assets/moon.png" alt="moon" id="moon" />
+      <img src="/assets/mountain.png" alt="mountain" id="mountain" />
+      <img src="/assets/road.png" alt="road" id="road" />
+      <h2 id="moon-text">Yatin Kashyap</h2>
+    </div>
+    <div class="logo">
+      <h1>You can Stalk me on!</h1>
+      <div class="logo-container" >
+        <a target="_blank" href="https://github.com/yatinkashyap1252">Github</a>
+        <a target="_blank" href="https://www.linkedin.com/in/yatin-kashyap-96a7412b6/">LinkedIn</a>
+        <a target="_blank" href="https://www.instagram.com/pixelredemption_404/?hl=en">Instagram</a>
+        <a target="_blank" href="https://www.youtube.com/@PixelRedemption">Youtube</a>
+      </div>
+    </div>
+    <div class="grid">
+      <p id="title" class="glowing-text">[Skills]</p>
+      <div class="main_grid_box">
+        <div class="left_column">
+          <div class="lm_upper">
+            <p>Blender</p>
+          </div>
+          <div class="lm_lower">
+            <div class="l_upper">
+              <p>Figma</p>
+            </div>
+            <div class="l_lower">
+              <p>Framer</p>
+            </div>
+          </div>
+        </div>
+        <div class="middle_column">
+          <div class="m1">
+            <div>
+              <p>Java</p>
+            </div>
+            <div>
+              <p>Python</p>
+            </div>
+            <div>
+              <p>SQL</p>
+            </div>
+            <div>
+              <p>MongoDB</p>
+            </div>
+          </div>
+          <div class="m2">
+            <p>Much more excited to learn more!</p>
+          </div>
+          <div class="m3">
+            <div>CSS, Tailwind CSS</div>
+            <div>HTML, JavaScript</div>
+          </div>
+        </div>
+        <div class="right_column">
+          <div class="rm_upper">
+            <div class="r_upper">
+              <p>MERN Stack</p>
+            </div>
+            <div class="r_lower">
+              <p>React Native</p>
+            </div>
+          </div>
+          <div class="rm_lower">
+            <p>Spline</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <p id="project_title">[Projects]</p>
+      <div id="project-container"></div>
+      <table class="project-table">
+        <thead>
+          <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Tech Stack</th>
+            <th>Description</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="project-table-body"></tbody>
+      </table>
+    </div>
+    <div class="scroll-container">
+      <section class="wrapper_404">
+        <h1>Blender || 3D Animation</h1>
+        <div class="card" id="card_1">
+          <img src="./assets/borcelle_2.0.png" alt="Card 1" />
+        </div>
+        <div class="card" id="card_5">
+          <img src="./assets/perfume.png" alt="Card 1" />
+        </div>
+        <div class="card" id="card_6">
+          <img src="./assets/donut.png" alt="Card 1" />
+        </div>
+        <div class="card" id="card_2">
+          <img src="./assets/jar_final (2).jpg" alt="Card 2" />
+        </div>
+        <div class="card" id="card_3">
+          <img src="./assets/headphones.png" alt="Card 3" />
+        </div>
+        <div class="card" id="card_4">
+          <img src="./assets/Celestique.png" alt="Card 4" />
+        </div>
+      </section>
+    </div>
+    <div class="contact-form">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="contact"
+      >
+        <h1>Contact Me...</h1>
+        <input
+          type="hidden"
+          name="access_key"
+          value="59ea35e0-c98b-4643-bfc6-90acaf1241af"
+        />
+        <input
+          type="text"
+          name="name"
+          required
+          placeholder="Enter Name here"
+          class="contact-inputs"
+        />
+        <input
+          type="text"
+          name="email"
+          required
+          placeholder="Enter your email"
+          class="contact-inputs"
+        />
+        <textarea
+          name="message"
+          placeholder="Enter your message"
+          required
+          class="contact-textarea"
+        ></textarea>
+        <button type="submit" class="submit-btn">Submit</button>
+        <p>Sometime simple is also good!</p>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
