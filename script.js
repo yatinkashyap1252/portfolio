@@ -81,27 +81,27 @@ const projects = [
     name: "GlobePath",
     description:
       "GlobePath is an AI-powered travel planner app that curates personalized itineraries, smart recommendations, and seamless trip management for hassle-free travel experiences.",
-    image: "/assets/globepath.png",
+    image: "assets/globepath.png",
     techStack: "React Native,Tailwind,Firebase",
-    link: "/globepath.html",
+    link: "globepath.html",
   },
   {
     id: 2,
     name: "Chattie",
     description:
       "Chattie is a real-time chat application built using the MERN stack, designed with Material-UI and Tailwind CSS for an intuitive UI. It offers seamless messaging, modern design, and responsive features for smooth user interactions.",
-    image: "/assets/chattie.png",
+    image: "assets/chattie.png",
     techStack:
       "React Js,Tailwind,Material UI,Node Js,Express,MongoDB,Scoket.io,Redux",
-    link: "/chattie.html",
+    link: "chattie.html",
   },
   {
     id: 3,
     name: "Object Detection",
     description: "The third project focuses on solving...",
-    image: "/assets/object.png",
+    image: "assets/object.png",
     techStack: "Python",
-    link: "/object_detection.html",
+    link: "object_detection.html",
   },
 ];
 
