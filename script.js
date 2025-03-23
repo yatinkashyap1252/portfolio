@@ -83,7 +83,7 @@ const projects = [
       "GlobePath is an AI-powered travel planner app that curates personalized itineraries, smart recommendations, and seamless trip management for hassle-free travel experiences.",
     image: "assets/globepath.png",
     techStack: "React Native,Tailwind,Firebase",
-    link: "globepath.html",
+    link: "/portfolio/globepath.html",
   },
   {
     id: 2,
