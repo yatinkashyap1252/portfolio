@@ -89,7 +89,7 @@ const projects = [
     id: 2,
     name: "Chattie",
     description:
-      "Chattie is a real-time chat application built using the MERN stack, designed with Material-UI and Tailwind CSS for an intuitive UI. It offers seamless messaging, modern design, and responsive features for smooth user interactions.",
+      "Chattie is a real-time chat application built using the MERN stack, designed with Material-UI and Tailwind CSS for an intuitive UI. It offers seamless messaging, modern design, and responsive features for smooth user interactions.(in url change the protoflio/portfolio/globepath to portfolio/globepath)",
     image: "assets/chattie.png",
     techStack:
       "React Js,Tailwind,Material UI,Node Js,Express,MongoDB,Scoket.io,Redux",
